@@ -25,6 +25,16 @@ window.QPlayer.list = [
         "artist": "许美静",
         "audio": "https://cdn.jsdelivr.net/gh/gitcate/cdn/music/许美静_城里的月光.mp3",
     },
+	{
+        "name": "无地自容",
+        "artist": "黑豹乐队",
+        "audio": "https://cdn.jsdelivr.net/gh/gitcate/cdn/music/黑豹乐队_无地自容.mp3",
+    },
+    {
+        "name": "Louder",
+        "artist": "Charice",
+        "audio": "https://cdn.jsdelivr.net/gh/gitcate/cdn/music/Charice_Louder.mp3",
+    },
     {
         "name": "信仰",
         "artist": "张信哲",
