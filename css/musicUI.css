@@ -56,7 +56,7 @@ body.night #QPlayer-lyrics {
     z-index: 9999;
     position: fixed;
     right: 0px;
-    bottom: 20px;
+    bottom: 360px;
     transition: transform .8s;
     pointer-events: none;
     font-size: 12px;
