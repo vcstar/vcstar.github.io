@@ -4,6 +4,7 @@ window.$ = q.$;
 $(function () {
 	//播放器显示
     $('#QPlayer').addClass('QPlayer-show');
+	$('#QPlayer-btn-mode').addClass('QPlayer-shuffle');
     //$('#QPlayer-more').addClass('QPlayer-list-show QPlayer-lyrics-show');
 	$('#QPlayer-more').addClass('QPlayer-list-show');
 	//$('#QPlayer-more').addClass('');
@@ -20,6 +21,7 @@ function switchMusicMode(){
 		window.$ = q.$;
 		$(function () {
 		$('#QPlayer').removeClass('QPlayer-show');
+		$('#QPlayer-btn-mode').addClass('QPlayer-shuffle');
 		//$('#QPlayer-more').addClass('QPlayer-list-show QPlayer-lyrics-show');
 		$('#QPlayer-more').addClass('QPlayer-list-show');
 		//$('#QPlayer-more').addClass('');
@@ -33,6 +35,7 @@ function switchMusicMode(){
 		$(function () {
 		//播放器显示
 		$('#QPlayer').addClass('QPlayer-show');
+		$('#QPlayer-btn-mode').addClass('QPlayer-shuffle');
 		//$('#QPlayer-more').addClass('QPlayer-list-show QPlayer-lyrics-show');
 		$('#QPlayer-more').addClass('QPlayer-list-show');
 		//$('#QPlayer-more').addClass('');
